@@ -9,6 +9,8 @@ public class InstantiateLevels : MonoBehaviour
     private Vector2 burgerPosition;
     public GameObject newestBurger;
 
+    public Vector3 CameraPosition;
+
 
     void Start() {
         burgerPosition.x = 430f;
@@ -29,6 +31,7 @@ public class InstantiateLevels : MonoBehaviour
         GameObject newBurger = (GameObject)Instantiate(ground);
         newBurger.tag = "unvisitConcrete";
         newBurger.transform.position = new Vector2(burgerPosition.x, burgerPosition.y);
+        CameraPosition = newBurger.transform.position;
         newestBurger = newBurger;
         numBurgers++;
         NextLevelSpawn();
