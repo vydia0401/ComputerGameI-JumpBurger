@@ -5,7 +5,8 @@ using UnityEngine;
 public class InstantiateLevels : MonoBehaviour
 {
     public GameObject ground;
-    private int numBurgers = 0;
+    public GameObject enemyObj;
+    public int numBurgers = 0;
     private Vector2 burgerPosition;
     public GameObject newestBurger;
 
@@ -34,6 +35,9 @@ public class InstantiateLevels : MonoBehaviour
         CameraPosition = newBurger.transform.position;
         newestBurger = newBurger;
         numBurgers++;
+        if (numBurgers % 2 == 0) {
+            addEnemy(newBurger.transform.position);
+        }
         NextLevelSpawn();
 
     }
@@ -50,5 +54,12 @@ public class InstantiateLevels : MonoBehaviour
         } else {
             Invoke("SpawnLevels", 2f);
         }
+    }
+
+        void addEnemy(Vector2 currBurgerPosition)
+    {
+        GameObject newEnemy = (GameObject)Instantiate(enemyObj);
+        currBurgerPosition.y += 1.4f;
+        newEnemy.transform.position = currBurgerPosition;
     }
 }
