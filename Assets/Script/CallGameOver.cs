@@ -8,6 +8,8 @@ public class CallGameOver : MonoBehaviour
     public Animator anim;
     public GameObject GameOverScreen;
 
+
+
     public void OnTriggerEnter(Collider col) {
 
         if (col.gameObject.tag == "Player")

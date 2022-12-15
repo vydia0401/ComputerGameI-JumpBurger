@@ -35,7 +35,7 @@ public class InstantiateLevels : MonoBehaviour
         CameraPosition = newBurger.transform.position;
         newestBurger = newBurger;
         numBurgers++;
-        if (numBurgers % 2 == 0) {
+        if (numBurgers % 1 == 0) {
             addEnemy(newBurger.transform.position);
         }
         NextLevelSpawn();

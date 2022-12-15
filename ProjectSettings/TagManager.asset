@@ -7,6 +7,7 @@ TagManager:
   - unvisitConcrete
   - player1Unvisted
   - player2Unvisted
+  - GameOver
   layers:
   - Default
   - TransparentFX
