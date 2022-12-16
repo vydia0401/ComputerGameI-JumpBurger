@@ -3077,7 +3077,7 @@ RectTransform:
   m_GameObject: {fileID: 339910883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.169518, y: 0.81996, z: 1}
+  m_LocalScale: {x: 4.2264323, y: 2.875971, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2041091253}
@@ -3089,7 +3089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 73.58096, y: -50}
+  m_AnchoredPosition: {x: 296, y: -208}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &339910885
@@ -6140,7 +6140,7 @@ RectTransform:
   m_GameObject: {fileID: 667940678}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.16672659}
-  m_LocalScale: {x: 9.214719, y: 4.104502, z: 3.7237272}
+  m_LocalScale: {x: 21.07703, y: 12.904347, z: 3.7237272}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1333778597}
@@ -6149,7 +6149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: 122}
+  m_AnchoredPosition: {x: -74, y: 143}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &667940680
@@ -6468,7 +6468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 9.200001, y: -3.199997}
+  m_AnchoredPosition: {x: 9.199951, y: -3.2000122}
   m_SizeDelta: {x: 88, y: -60}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &701771635
@@ -6492,7 +6492,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Start the game by choosing the number of players using the buttons on
-    the bottoom right corner\n\nGoal:\nJump up the burgers as they appear, if your
+    the buttoom right corner\n\nGoal:\nJump up the burgers as they appear, if your
     character falls down or goes out of screen, the game would be over. Don't forget
     to avoid the vikings as you level up!\n\nOne Player Game\n\tTry to get as many
     points as you can! You've got this!!\n\t Control the character using the arrow
@@ -12418,8 +12418,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 10
+  m_fontSizeBase: 10
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13125,7 +13125,7 @@ RectTransform:
   m_GameObject: {fileID: 1448404796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.4791694, y: 3.057044, z: 1}
+  m_LocalScale: {x: 7.397084, y: 5.179819, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2062249338}
@@ -13133,10 +13133,10 @@ RectTransform:
   m_Father: {fileID: 1711971945}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -33, y: 188}
-  m_SizeDelta: {x: 112, y: 110}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -10, y: -3}
+  m_SizeDelta: {x: 111, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1448404798
 MonoBehaviour:
@@ -18475,8 +18475,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123090694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5762528, y: 1.0592228, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 115}
+  m_LocalScale: {x: 3.6418095, y: 2.5824285, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1165236772}
@@ -18487,7 +18487,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -104.599976, y: 77}
+  m_AnchoredPosition: {x: -256, y: 184}
   m_SizeDelta: {x: 111, y: 110}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2123090696
