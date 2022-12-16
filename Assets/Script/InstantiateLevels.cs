@@ -9,11 +9,11 @@ public class InstantiateLevels : MonoBehaviour
     public int numBurgers = 0;
     private Vector2 burgerPosition;
     public GameObject newestBurger;
-
+    public StartGame startGameVar;
     public Vector3 CameraPosition;
 
 
-    void Start() {
+    public void StartInstantiate() {
         burgerPosition.x = 430f;
         burgerPosition.y = 2f;
         Invoke("SpawnLevels", 5f);
